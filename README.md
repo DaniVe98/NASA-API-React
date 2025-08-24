@@ -27,15 +27,16 @@ A simple but powerful web app that shows a new image every day, built with React
 
 # How It Works
 
-On first load, the app fetches today’s image.  
-It stores the image + timestamp in localStorage.  
-If you reload, it uses the cached image instantly.  
-After 24h, the cache expires and a new image is fetched.  
+1. On first load, the app fetches today’s image.  
+2. It stores the image + timestamp in localStorage.  
+3. If you reload, it uses the cached image instantly.  
+4. After 24h, the cache expires and a new image is fetched.  
 
 # Screenshots
 <img width="1365" height="636" alt="image" src="https://github.com/user-attachments/assets/4543acf1-c366-4c4a-b92e-5d60e8133613" />
 <img width="1350" height="638" alt="image" src="https://github.com/user-attachments/assets/0070f795-c43c-4aee-972d-e1521b3cf968" />
 <img width="1365" height="652" alt="image" src="https://github.com/user-attachments/assets/2aea8aeb-1ac0-4d63-9e20-db12e9c2f1e0" />
+
 
 # Contributing
 
